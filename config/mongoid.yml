@@ -4,3 +4,14 @@ development:
   port: 27017
   database: mongoid_demo
 
+replica_set:
+  hosts:
+    - - localhost
+      - 27021
+    - - localhost
+      - 27022
+    - - localhost
+      - 27023
+  read: :secondary
+  database: replication_demo
+
