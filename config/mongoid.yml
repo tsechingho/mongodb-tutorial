@@ -1,0 +1,6 @@
+development:
+  # logger: false
+  host: localhost
+  port: 27017
+  database: mongoid_demo
+
