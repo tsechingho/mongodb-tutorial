@@ -15,3 +15,13 @@ replica_set:
   read: :secondary
   database: replication_demo
 
+master_slave:
+  host: localhost
+  port: 27018
+  slaves:
+    - host: localhost
+      port: 27019
+    - host: localhost
+      port: 27020
+  database: master_slave_demo
+
